@@ -1,3 +1,5 @@
+#A basket is given to you in the shape of a matrix. If the size of the matrix is N x N then the range of number of eggs you can put in each slot of the basket is 1 to N². You task is to arrange the eggs in the basket such that the sum of each row, column and the diagonal of the matrix remain same.
+#CODE STARTS HERE
 def forEvenNumber(n):
     arr = [[(n * y) + x + 1 for x in range(n)] for y in range(n)]
     for i in range(0, n // 4):
@@ -58,3 +60,18 @@ if n%2==0:
 else:
     forOddNumber(n)
 print("\nThank You")
+#ENDS HERE 
+#OUTPUT
+#WELCOME:)
+
+#Please Enter Number of Rows and Column (n*n): 5
+
+#Sum of all row, column and diagonals =  65 
+
+ #9  3 22 16 15
+ #2 21 20 14  8
+#25 19 13  7  1
+#18 12  6  5 24
+#11 10  4 23 17
+
+#Thank You
